@@ -39,6 +39,39 @@ Three risks were documented:
 3. Incident notification obligations not agreed in the contract.
 
 The risks were assessed using qualitative likelihood and impact ratings: Low, Medium, and High.
+## Sample of the Third-Party Risk Assessment
+
+The following illustrates how a GRC analyst can assess a vendor's security claims and supporting evidence.
+
+| Assessment Area | Vendor Response | Evidence Status | GRC Assessment |
+|---|---|---|---|
+| Encryption at rest | Initially unverified | Evidence subsequently reported as confirmed | Review supporting evidence |
+| Data encryption in transit | Encrypted | Vendor claim | Validate technical documentation |
+| Backup and recovery | Daily backups claimed | Restoration report subsequently supplied | Review test scope and results |
+| Administrator MFA | MFA available | Mandatory enforcement subsequently reported | Verify enforcement |
+| Access control | Policy supplied | Document received | Review policy adequacy |
+| Incident response | Policy supplied | Document received; testing evidence unavailable | Assess response readiness |
+| Incident notification | No contractual timeframe | Contractual gap identified | Recommend defined notification obligations |
+
+### Identified Vendor Risks
+
+| Risk ID | Identified Risk | Likelihood | Impact | Risk Rating | Proposed Treatment |
+|---|---|---|---|---|---|
+| VR-001 | Encryption-at-rest coverage not adequately verified | Medium | High | High | Inspect supporting encryption evidence |
+| VR-002 | Backup restoration capability not adequately verified | Medium | High | High | Review restoration test evidence |
+| VR-003 | Incident notification obligations not agreed | Medium | High | High | Recommend clear contractual notification requirements |
+
+### What This Project Demonstrates
+
+- Third-party risk assessment.
+- Vendor security due diligence.
+- Security evidence evaluation.
+- Identification of third-party risks.
+- Assessment of security controls.
+- Risk treatment recommendations.
+- Contractual security considerations.
+
+**Full project:** See the Vendor Risk Assessment Excel workbook and Case Study in this repository.
 
 **Tools and Deliverables**
 
